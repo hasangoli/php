@@ -9,7 +9,7 @@
 session_start();
 
 if (isset($_POST['submit'])) {
-  $username = filter_input(INPUT_POST, 'name', FILTER_SANITIZE_SPECIAL_CHARS);
+  $username = filter_input(INPUT_POST, 'username', FILTER_SANITIZE_SPECIAL_CHARS);
 
   $password = $_POST['password'];
 
@@ -21,8 +21,6 @@ if (isset($_POST['submit'])) {
   }
 }
 ?>
-
-<h1>1:50</h1>
 
 <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="POST">
   <div>
