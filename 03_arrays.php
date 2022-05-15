@@ -1,5 +1,5 @@
 <?php
-/* ----------- Arrrays ----------- */
+/* ----------- Arrays ----------- */
 // Simple Array
 $numbers = [1, 2, 3, 4];
 $fruits = array('apple', 'orange', 'pear');
@@ -8,7 +8,7 @@ print_r($numbers);
 var_dump($numbers);
 echo $fruits[1];
 
-// Assosiative Array
+// Associative Array
 $colors = [
   1 => 'red',
   4 => 'blue',

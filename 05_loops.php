@@ -32,6 +32,7 @@ do {
   $xz++;
 } while ($xz <= 5);
 
+
 /* ---------- Foreach Loop ---------- */
 
 $posts = ['First Post', 'Second Post', 'Third Post'];

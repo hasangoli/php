@@ -40,7 +40,7 @@ $posts = ['First Post'];
 if (!empty($posts)) {
   echo $posts[0];
 } else {
-  echo "No Pists";
+  echo "No Posts";
 }
 
 /* -------- Ternary Operator -------- */

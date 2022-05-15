@@ -9,7 +9,7 @@ print 123;
 // print_r() - Print single values and arrays
 print_r([1, 2, 3]);
 
-// var_dump() - Returens more info like data type and length
+// var_dump() - Returns more info like data type and length
 var_dump(true);
 
 // var_export() - Similar to var_dump(). Outputs a string representation of a variable
@@ -28,6 +28,7 @@ var_export('Hello');
   </head>
 
   <body>
+    <h1><?php echo "Post One"; ?></h1>
     <h1><?= "Post One"; ?></h1>
   </body>
 
