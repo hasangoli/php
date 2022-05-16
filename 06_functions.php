@@ -11,7 +11,7 @@ function register_user($email)
   echo "$email registered!";
 }
 
-register_user('Sann');
+register_user('hasan@gmail.com');
 
 function sum($n1 = 2, $n2 = 2)
 {
@@ -21,11 +21,11 @@ function sum($n1 = 2, $n2 = 2)
 $number = sum();
 echo $number;
 
-$subract = function ($n1, $n2) {
+$subtract = function ($n1, $n2) {
   return $n1 - $n2;
 };
 
-echo $subract(10, 4);
+echo $subtract(10, 4);
 
 $multiply = fn ($n1, $n2) => $n1 * $n2;
 echo $multiply(9, 9);

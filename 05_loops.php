@@ -25,12 +25,12 @@ while ($y <= 15) {
 do...while loop will always execute the block of code once, even if the condition is false.
 */
 
-$xz = 6;
+$z = 6;
 
 do {
-  echo "Number $xz <br/>";
-  $xz++;
-} while ($xz <= 5);
+  echo "Number $z <br/>";
+  $z++;
+} while ($z <= 5);
 
 
 /* ---------- Foreach Loop ---------- */
@@ -40,3 +40,15 @@ $posts = ['First Post', 'Second Post', 'Third Post'];
 for ($i = 0; $i < count($posts); $i++) {
   echo "$posts[$i] <br/>";
 }
+
+foreach ($posts as $index => $post) {
+  echo $index + 1 . ' - ' . $post . '<br/>';
+}
+
+$person = [
+  'first_name' => 'Hasan', 'last_name' => 'Goli', 'email' => 'hasan@gmaill.com'
+];
+
+foreach ($person as $key => $value) {
+  echo "$key - $value <br/>";
+};

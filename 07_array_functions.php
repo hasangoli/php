@@ -19,7 +19,7 @@ array_pop($fruits);
 array_shift($fruits);
 // unset($fruits[2]);
 
-// Split itno chunks
+// Split into chunks
 $chunked_array = array_chunk($fruits, 2);
 
 print_r($chunked_array);
@@ -36,7 +36,7 @@ print_r($arr4);
 
 // Combine arrays
 $a = ['green', 'red', 'yellow'];
-$b = ['avacado', 'apple', 'banana'];
+$b = ['avocado', 'apple', 'banana'];
 
 $c = array_combine($a, $b);
 print_r($c);
