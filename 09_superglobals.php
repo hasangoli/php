@@ -4,7 +4,7 @@
 // Built in variables that are always available in all scopes
 
 /*
-  $GLOBALS - A superglobal variable that holds information about any variables in global scope.
+  $GLOBALS - A super global variable that holds information about any variables in global scope.
   $_GET - Contains information about variables passed through a URL or a form.
   $_POST -  Contains information about variables passed through a form.
   $_COOKIE - Contains information about variables passed through a cookie.
@@ -31,7 +31,6 @@
     <ul>
       <li>Host: <?php echo $_SERVER['HTTP_HOST']; ?></li>
       <li>Document Root: <?php echo $_SERVER['DOCUMENT_ROOT']; ?></li>
-      <li>System Root: <?php echo $_SERVER['SystemRoot']; ?></li>
       <li>Server Name: <?php echo $_SERVER['SERVER_NAME']; ?></li>
       <li>Server Port: <?php echo $_SERVER['SERVER_PORT']; ?></li>
       <li>Current File Dir: <?php echo $_SERVER['PHP_SELF']; ?></li>

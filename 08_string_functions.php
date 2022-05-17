@@ -49,6 +49,6 @@ echo htmlspecialchars($string3);
 
 // Formatted Strings - useful when you have outside data
 // Different specifiers for different data types
-printf('%s is a %s', 'Sann', 'nice guy'); // string
+printf('%s likes to %s', 'Sann', 'code.'); // string
 printf('1 + 1 = %d', 1 + 1); // int
 printf('1 + 1 = %f', 1 + 1); // float
