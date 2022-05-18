@@ -12,4 +12,4 @@ if (isset($_COOKIE['name'])) {
   echo $_COOKIE['name'];
 }
 
-setcookie('name', '', time() - 864000);
+setcookie('name', '', time() - 86400);
