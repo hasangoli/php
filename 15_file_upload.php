@@ -2,7 +2,7 @@
 /* ----------- File upload ---------- */
 
 if (isset($_POST['submit'])) {
-  $allowed_ext = array('png', 'jpg', 'jpeg', 'gif');
+  $allowed_ext = ['png', 'jpg', 'jpeg', 'gif'];
 
   if (!empty($_FILES['upload']['name'])) {
     $file_name = $_FILES['upload']['name'];

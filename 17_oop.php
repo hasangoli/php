@@ -8,6 +8,11 @@
 class User
 {
   // Properties are attrs that belong to a class
+
+  // Access Modifiers:
+  // public - access from anywhere
+  // private - access from inside the class
+  // protected - access from inside the class and inherited classes
   public $name;
   public $email;
   public $password;
@@ -44,7 +49,7 @@ var_dump($user2);
 echo $user1->get_name();
 echo $user2->get_name();
 
-// Inheritence
+// Inheritance
 class Employee extends User
 {
   public function __construct($name, $email, $password, $title)
@@ -62,6 +67,3 @@ class Employee extends User
 $employee1 = new Employee('Jane', 'jane@gmail.com', '12345678', 'Manager');
 
 echo $employee1->title;
-
-echo "<h1 style='font-size:100px;text-align:center;line-height:0;'>2:35:14</h1>";
-echo "<h1 style='font-size:25px;text-align:center;'>Feedback Project</h1>";

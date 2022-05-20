@@ -10,14 +10,14 @@
 $file = './extras/users.txt';
 
 if (file_exists($file)) {
-  echo readfile(($file));
+  // echo readfile($file);
   $handle = fopen($file, 'read');
   $contents = fread($handle, filesize($file));
   fclose($handle);
   echo $contents;
 } else {
   $handle = fopen($file, 'w');
-  $contents = 'Sann' . PHP_EOL . 'Ryan' . PHP_EOL . 'Roach' . PHP_EOL;
+  $contents = 'Sann' . PHP_EOL . 'Ryan' . PHP_EOL . 'Roach' . PHP_EOL . 'John' . PHP_EOL;
   fwrite($handle, $contents);
   fclose($handle);
 }
